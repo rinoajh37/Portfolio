@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat', sans-serif;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+body{
+    background-color: #080808;
+    color: #fff;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+}
+/* .container{
+    padding: 20px 15%;
+} */
+.backgroundvideo{
+    position: absolute;
+    opacity: 10%;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(min-aspect-ratio:16/9){
+    .backgroundvideo{
+        width: 100%;
+        height: auto;
+    } 
+}
+@media(max-aspect-ratio:16/9){
+    .backgroundvideo{
+        width: auto;
+        height: 100%;
+    } 
+}
+.menubar{
+    background: #fff;
+    opacity: 60%;
+    margin: 50px auto;
+    border-radius: 20px;
+    transition: 0.5s;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menubar:hover{
+    opacity: 100%;
+}
+nav{    
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    padding: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #080808;
+    font-weight: bold;
+    opacity: 80%;
+    transition: 0.5s;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: 750;
+}
+nav ul li a:hover{
+    background-color: #d3d3d3;
+    padding: 5px 10px;
+    border-radius: 20px;
+    opacity: 100%;
+}
+.header-text{
+    margin-top: 18%;
+}
+.header-text h1{
+    line-height: 0;
+    font-size: 80px;
+    text-align: center; 
+    font-weight: 1000;
+    -webkit-text-stroke: 1px #fff;
+    color: #fff;
+    transition: 0.5s;
+}
+.header-text h1:hover{
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+/*-------------------------ABOUT--------------------------*/
+
+.about{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about img{
+    width: 330px;
+} 
+.about-me{
+    width: 600px;
+}
+.about-me h1{
+    font-size: 70px;
+    text-transform: capitalize;
+}
+.about-me p{
+    font-family: arial;
+    text-align: justify;
+}
+.hero{
+    width: 1000px;
+    margin: 50px auto;
+    padding: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menubar-about{
+    background: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 600px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ .menubar-about-list{
+    margin: 10px auto;
+    color: #080808;
+    font-weight: bold;
+    opacity: 80%;
+    transition: 0.5s;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.menubar-about-list:hover{
+    background-color: #d3d3d3;
+    color: #080808;
+    padding: 5px 10px;
+    border-radius: 20px;
+    opacity: 100%;
+}
+.content{
+    width: 850px;
+    height: auto;
+    padding: 5px;
+}
+.tab-content-skill{
+    margin: 20px auto;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: space-evenly;
+}
+.content-skill{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+}
+.content-skill p{
+    color: #080808;
+    font-weight: 550;
+}
+.content-skill img{
+    margin: 5px auto;
+    width: 50px;
+} 
+/*-------------------------SKILL--------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .subtitle{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0px 0 10px;
+    color: #fff;
+}
+.tabtitles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+.tablinks{
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.tablinks::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #db0000;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.2s;
+}
+.tablinks:hover::after{
+    width: 100%;
+}
+.tablinks.activelink::after{
+    width: 100%;
+}
+.tabcontents ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.tabcontents ul li span{
+    color: #cb6d6d;
+    font-size: 15px;
+}
+.tabcontents{
+    display: none;
+}
+.tabcontents.activetab{
+    display: block;
+} */
